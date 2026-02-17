@@ -1,10 +1,20 @@
 Patient Records Management System (PRMS)
+
+
 A professional, local-first desktop application designed for healthcare providers to manage patient data, perform clinical trend analysis, and utilize rule-based decision support. This system is engineered for privacy and efficiency, operating entirely offline with no external API dependencies or recurring costs.
 
-Overview
+
+
+
+Overview:
+
 The Patient Records Management System (PRMS) provides a centralized interface for clinical documentation. It combines a robust SQLite database backend with a modern Python-based graphical user interface (GUI). The system includes built-in logic for risk assessment and automated patient summarization, ensuring that practitioners can quickly identify high-priority cases and historical trends.
 
-Core Functionalities
+
+
+
+Core Functionalities:
+
 1. Clinical Data Management
 Patient Records: Comprehensive CRUD (Create, Read, Update, Delete) operations for patient profiles, medical histories, and clinical notes.
 
@@ -35,20 +45,26 @@ Secure Authentication: Administrative access is protected by PBKDF2-HMAC-SHA256 
 
 Encrypted Configuration: Application settings and authentication tokens are stored in a secure local JSON configuration.
 
-Technical Specifications
+
+
+
+
+Technical Specifications:
+
 Programming Language: Python 3.x
-
 GUI Framework: Tkinter (Custom Themed)
-
 Database Engine: SQLite3
-
 Computational Libraries: Matplotlib, Numpy
-
 Security Modules: Hashlib, Secrets
 
-Installation
+
+
+
 Prerequisites
 Ensure Python 3.8 or higher is installed on your system.
+
+
+
 
 
 System Architecture
@@ -57,6 +73,9 @@ prms_main.py: The primary application controller handling the GUI lifecycle, dat
 ai_helpers.py: The logic engine for clinical decision support, risk scoring, and text processing.
 
 prms_reports.py: A specialized module for statistical computation and graphical rendering of clinic data.
+
+
+
 
 Configuration
 Upon the initial launch, the system will prompt the administrator to establish a secure password. This password is used to encrypt the local session. The database (prms_patients.db) is initialized automatically in the application directory.
