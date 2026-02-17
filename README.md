@@ -1,4 +1,4 @@
-Patient Records Management System (PRMS)
+Patient Records Management System (PRMS)\n
 
 
 A professional, local-first desktop application designed for healthcare providers to manage patient data, perform clinical trend analysis, and utilize rule-based decision support. This system is engineered for privacy and efficiency, operating entirely offline with no external API dependencies or recurring costs.
