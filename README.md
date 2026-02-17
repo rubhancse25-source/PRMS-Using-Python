@@ -41,7 +41,7 @@ Report Exportation: Ability to export clinical charts and statistical graphs to 
 4. Security and Privacy
 Local-First Architecture: Ensures all patient data remains on-premises, facilitating compliance with data privacy standards.
 
-Secure Authentication: Administrative access is protected by PBKDF2-HMAC-SHA256 password hashing.
+Secure Authentication: Administrative access is protected by password hashing.
 
 Encrypted Configuration: Application settings and authentication tokens are stored in a secure local JSON configuration.
 
